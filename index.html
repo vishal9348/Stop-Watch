@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock and Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span id="session">AM</span>
+    </div>
+
+    <!--        timer            -->
+
+    <div class="windowshell">
+        <div class="outershell">
+            <div class="timerscreen" id="timerscreen">
+                <label style="font-size: 40px;">Stop Watch</label>
+            
+            <div>
+            <lable class="timer" id="timers">0</lable>
+            <label for="" class="timer" id="timers" style="font-size: 40px;">seconds</label>
+            <lable class="timer milli" id="timerms">00</lable>
+            <lable class="timer1 milli" id="timerms" style="font-size: 40px;">millisecond</lable>
+        </div>
+          <div class="buttonholder">
+            <button class="reset button" onclick="startTimer()">start</button>
+            <button class="reset button" onclick="stopTimer()">Stop</button>
+            <button class="reset button" onclick="resetTimer()">Reset</button>
+          </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+     <script src="./timer.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

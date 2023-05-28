@@ -1,0 +1,37 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    background: #000;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 70px;
+
+}
+.windowshell{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    background: #000;
+    height: 280px;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 70px;
+}
+.button{
+    margin: 20px;
+    color: rgb((255), 255, 255);
+    background-color: rgb(161, 235, 76);
+    border-radius: 60%;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: poppins;
+}
+.reset:hover{
+    /* use for button hover */
+    background-image: linear-gradient(to bottom right, rgb(25, 236, 229), rgb(179, 55, 210));
+}
